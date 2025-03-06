@@ -1,0 +1,231 @@
+
+var data = [{
+    "\u0069\u0064": 0x1,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x1,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": "\u0070\u0061\u0073\u0073\u0077\u006f\u0072\u0064",
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    "\u0075\u0073\u0065\u0064\u005f\u0063\u006f\u0075\u006e\u0074": 0x4b3659,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    "\u0069\u0064": 0x2,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x2,
+    'passwd': "\u0031\u0032\u0033\u0034\u0035\u0036",
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    "\u0075\u0073\u0065\u0064\u005f\u0063\u006f\u0075\u006e\u0074": 0x173f51,
+    'year': 0x7e6
+}, {
+    "\u0069\u0064": 0x3,
+    'ranking': 0x3,
+    'passwd': '123456789',
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    'used_count': 0x64d80,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    "\u0069\u0064": 0x4,
+    'ranking': 0x4,
+    'passwd': "\u0067\u0075\u0065\u0073\u0074",
+    'time_to_crack_it': '10\x20Seconds',
+    'used_count': 0x5be61,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    "\u0069\u0064": 0x5,
+    'ranking': 0x5,
+    'passwd': 'qwerty',
+    'time_to_crack_it': '<\x201\x20Second',
+    "\u0075\u0073\u0065\u0064\u005f\u0063\u006f\u0075\u006e\u0074": 0x4b9af,
+    'year': 0x7e6
+}, {
+    'id': 0x6,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x6,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": '12345678',
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    'used_count': 0x45912,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    'id': 0x7,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x7,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": '111111',
+    'time_to_crack_it': '<\x201\x20Second',
+    "\u0075\u0073\u0065\u0064\u005f\u0063\u006f\u0075\u006e\u0074": 0x37eb7,
+    'year': 0x7e6
+}, {
+    "\u0069\u0064": 0x8,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x8,
+    'passwd': "\u0031\u0032\u0033\u0034\u0035",
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    'used_count': 0x2e0ba,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    "\u0069\u0064": 0x9,
+    'ranking': 0x9,
+    'passwd': "\u0063\u006f\u006c\u0031\u0032\u0033\u0034\u0035\u0036",
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '11\x20Seconds',
+    'used_count': 0x224d9,
+    'year': 0x7e6
+}, {
+    'id': 0xa,
+    'ranking': 0xa,
+    'passwd': '123123',
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    "\u0075\u0073\u0065\u0064\u005f\u0063\u006f\u0075\u006e\u0074": 0x1f312,
+    'year': 0x7e6
+}, {
+    'id': 0xb,
+    'ranking': 0xb,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": "\u0031\u0032\u0033\u0034\u0035\u0036\u0037",
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    "\u0075\u0073\u0065\u0064\u005f\u0063\u006f\u0075\u006e\u0074": 0x1aec7,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    "\u0069\u0064": 0xc,
+    'ranking': 0xc,
+    'passwd': "\u0031\u0032\u0033\u0034",
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0x1a1b1,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    'id': 0xd,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0xd,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": '1234567890',
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    'used_count': 0x19ae5,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    'id': 0xe,
+    'ranking': 0xe,
+    'passwd': '000000',
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0x190ec,
+    'year': 0x7e6
+}, {
+    'id': 0xf,
+    'ranking': 0xf,
+    'passwd': '555555',
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    'used_count': 0x18031,
+    'year': 0x7e6
+}, {
+    'id': 0x10,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x10,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": "\u0036\u0036\u0036\u0036\u0036\u0036",
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0x1648a,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    "\u0069\u0064": 0x11,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x11,
+    'passwd': '123321',
+    'time_to_crack_it': '<\x201\x20Second',
+    "\u0075\u0073\u0065\u0064\u005f\u0063\u006f\u0075\u006e\u0074": 0x14529,
+    'year': 0x7e6
+}, {
+    'id': 0x12,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x12,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": '654321',
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    "\u0075\u0073\u0065\u0064\u005f\u0063\u006f\u0075\u006e\u0074": 0x13d4f,
+    'year': 0x7e6
+}, {
+    'id': 0x13,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x13,
+    'passwd': "\u0037\u0037\u0037\u0037\u0037\u0037\u0037",
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0x121f9,
+    'year': 0x7e6
+}, {
+    'id': 0x14,
+    'ranking': 0x14,
+    'passwd': '123',
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0xed7b,
+    'year': 0x7e6
+}, {
+    'id': 0x15,
+    'ranking': 0x15,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": 'D1lakiss',
+    'time_to_crack_it': '3\x20Hours',
+    "\u0075\u0073\u0065\u0064\u005f\u0063\u006f\u0075\u006e\u0074": 0xc405,
+    'year': 0x7e6
+}, {
+    'id': 0x16,
+    'ranking': 0x16,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": '777777',
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0xbf07,
+    'year': 0x7e6
+}, {
+    "\u0069\u0064": 0x17,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x17,
+    'passwd': '110110jp',
+    'time_to_crack_it': '3\x20Seconds',
+    'used_count': 0xbc89,
+    'year': 0x7e6
+}, {
+    'id': 0x18,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x18,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": '1111',
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0xbb3f,
+    'year': 0x7e6
+}, {
+    'id': 0x19,
+    'ranking': 0x19,
+    'passwd': '987654321',
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    'used_count': 0xb72b,
+    'year': 0x7e6
+}, {
+    'id': 0x1a,
+    'ranking': 0x1a,
+    'passwd': '121212',
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0xb4da,
+    'year': 0x7e6
+}, {
+    'id': 0x1b,
+    'ranking': 0x1b,
+    "\u0070\u0061\u0073\u0073\u0077\u0064": "\u0047\u0069\u007a\u006c\u0069",
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '10\x20Seconds',
+    'used_count': 0xaf4a,
+    'year': 0x7e6
+}, {
+    'id': 0x1c,
+    'ranking': 0x1c,
+    'passwd': 'abc123',
+    "\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074": '<\x201\x20Second',
+    'used_count': 0xae2b,
+    "\u0079\u0065\u0061\u0072": 0x7e6
+}, {
+    'id': 0x1d,
+    "\u0072\u0061\u006e\u006b\u0069\u006e\u0067": 0x1d,
+    'passwd': '112233',
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0xaa5f,
+    'year': 0x7e6
+}, {
+    'id': 0x1e,
+    'ranking': 0x1e,
+    'passwd': 'azerty',
+    'time_to_crack_it': '<\x201\x20Second',
+    'used_count': 0xa85d,
+    'year': 0x7e6
+}];
+// data['forEach']((_0x4b7919,_0x7b5192)=>{
+//     ranking = _0x4b7919['ranking'];
+//     passwd= _0x4b7919['passwd'];
+//     ALLNAME = _0x4b7919["\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074"];
+//     used_count= _0x4b7919['used_count'];
+//     console.log(`ranking=${ranking}    passwd=${passwd}    used_count=${used_count}    ALLNAME${ALLNAME}`)
+//
+// }
+// );
+
+data.forEach((data,)=>{
+    ranking = data['ranking'];
+    passwd= data['passwd'];
+    ALLNAME = data["\u0074\u0069\u006d\u0065\u005f\u0074\u006f\u005f\u0063\u0072\u0061\u0063\u006b\u005f\u0069\u0074"];
+    used_count= data['used_count'];
+    console.log(`ranking=${ranking}    passwd=${passwd}    used_count=${used_count}    ALLNAME${ALLNAME}`);
+    }
+)
+
