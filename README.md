@@ -18,11 +18,15 @@
 - [公众号地址：某盗版网站过简单滑块](https://mp.weixin.qq.com/s/IqWlOzLDAmntAseBFTn4zQ)
 - [文章代码](TVByunbo影视站/README.md)
 
-#### 4.爬虫小例：多线程下载某趣阁小说
+##### 4.爬虫小例：多线程下载某趣阁小说
 
 - [公众号地址：爬虫小例：多线程下载某趣阁小说](https://mp.weixin.qq.com/s/mS4mi1CMU9no0Osd8fvQYA)
 - [文章代码](笔趣阁系列/3bqg/README.md)
 
+##### 5.某公共交易平台header头逆向
+*一直在单线程跑数据，没代理加，上传时开箱可用*
+- [公众号地址：某公共交易平台header头逆向](https://mp.weixin.qq.com/s/MoHyPxvuH9aXOkGlymv66g)
+- [文章代码](广东交易平台/README.md)
 
 
 
