@@ -28,8 +28,13 @@
 - [公众号地址：某公共交易平台header头逆向](https://mp.weixin.qq.com/s/MoHyPxvuH9aXOkGlymv66g)
 - [文章代码](广东交易平台/README.md)
 
+##### 6.某游戏账号注册发包加密分析
+- [公众号地址：某游戏账号注册发包加密分析](https://mp.weixin.qq.com/s/Q88_LjvvmRmbUtLsDskNeg)
+- [文章代码](leiting/README.md)
 
-
+##### 7.爬虫小例：基于cookies的twitter批量发帖回帖和搜索
+- [公众号地址：爬虫小例：基于cookies的twitter批量发帖回帖和搜索](https://mp.weixin.qq.com/s/AQHqZkDBx33oNH5cwYh8IA)
+- [文章代码](twitter/README.md)
 
 
 
