@@ -34,11 +34,21 @@
 
 ##### 7.爬虫小例：基于cookies的twitter批量发帖回帖和搜索
 - [公众号地址：爬虫小例：基于cookies的twitter批量发帖回帖和搜索](https://mp.weixin.qq.com/s/AQHqZkDBx33oNH5cwYh8IA)
+- [公众号地址： 爬虫小例：twitter搜索持久化储存和下载](https://mp.weixin.qq.com/s/2Qk71TqPTmbyIUUyfhslDA)
 - [文章代码](twitter/README.md)
 
+##### 8.某鸟加密参数解析
+- [公众号地址：某鸟加密参数解析](https://mp.weixin.qq.com/s/iATUUJNmDdMtB_g_LwFfzw)
+- [文章代码](观鸟/README.md)
 
+##### 9.某webpack扣代码精简
 
+- [公众号地址：某webpack扣代码精简](https://mp.weixin.qq.com/s/aX7pXtUBPhO2XtTKPsfe2w)
+- [文章代码](凤凰云管理平台/README.md)
 
+##### 10.简单算数验证码识别例子
+- [公众号地址：简单算数验证码识别例子](https://mp.weixin.qq.com/s/y97cWKgFIel8v9EXLqoLDg)
+- [文章代码](赣州职业技术学院/README.md)
 
 
 
