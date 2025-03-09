@@ -54,8 +54,8 @@
 - [公众号地址：某解析站token逆向](https://mp.weixin.qq.com/s/EdyaV8NqdwoFdKbN5hq59w)
 - [文章代码](网易云解析站/README.md)
 
-
-
+##### 12.易久批的header逆向,简单的AST还原
+- [代码](易久批/README.md)
 
 
 
