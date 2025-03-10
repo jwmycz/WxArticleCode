@@ -91,7 +91,7 @@
 #### 22.某招标站参数逆向分析
 
 - [公众号地址：某招标站参数逆向分析](https://mp.weixin.qq.com/s/1aVWtWkZ_Na9jO2t-AZiYA)
-
+- [文章代码](bid/README.md)
 #### 23.Jsvmp初探：某站cookie参数w_tsfp纯算
 
 - [公众号地址：Jsvmp初探：某站cookie参数w_tsfp纯算](https://mp.weixin.qq.com/s/eIPEP2rg25RIgSx6iIJtjw)
