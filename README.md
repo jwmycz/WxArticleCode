@@ -89,7 +89,7 @@
 #### 22.某招标站参数逆向分析
 
 - [公众号地址：某招标站参数逆向分析](https://mp.weixin.qq.com/s/1aVWtWkZ_Na9jO2t-AZiYA)
-- [文章代码](bid/README.md)
+- [文章代码](某招标站/README.md)
 #### 23.Jsvmp初探：某站cookie参数w_tsfp纯算
 
 - [公众号地址：Jsvmp初探：某站cookie参数w_tsfp纯算](https://mp.weixin.qq.com/s/eIPEP2rg25RIgSx6iIJtjw)
@@ -97,7 +97,7 @@
 #### 24.某花顺hexin_v纯算
 
 - [公众号地址：某花顺hexin_v纯算](https://mp.weixin.qq.com/s/UrQIK_-QDNsoQkD25rjm7w)
-- [文章代码](同花顺财经/README.md)
+- [文章代码](某花顺/README.md)
 
 
 
