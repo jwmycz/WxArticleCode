@@ -5,7 +5,6 @@
 #### 1.伪装成png的视频流爬虫
 
 - [公众号地址：伪装成png的视频流爬虫](https://mp.weixin.qq.com/s/G2x9MFrwyLw4TfMdmTZFaA)
-
 - [文章代码](TVByunbo影视站/README.md)
 
 #### 2.spiderbuf靶场js逆向题
@@ -24,9 +23,8 @@
 - [文章代码](笔趣阁系列/3bqg/README.md)
 
 #### 5.某公共交易平台header头逆向
-*一直在单线程跑数据，没代理加，上传时开箱可用*
 - [公众号地址：某公共交易平台header头逆向](https://mp.weixin.qq.com/s/MoHyPxvuH9aXOkGlymv66g)
-- [文章代码](广东交易平台/README.md)
+- [文章代码](某公共交易平台/README.md)
 
 #### 6.某游戏账号注册发包加密分析
 - [公众号地址：某游戏账号注册发包加密分析](https://mp.weixin.qq.com/s/Q88_LjvvmRmbUtLsDskNeg)
@@ -39,7 +37,7 @@
 
 #### 8.某鸟加密参数解析
 - [公众号地址：某鸟加密参数解析](https://mp.weixin.qq.com/s/iATUUJNmDdMtB_g_LwFfzw)
-- [文章代码](观鸟/README.md)
+- [文章代码](某鸟/README.md)
 
 #### 9.某webpack扣代码精简
 
@@ -48,7 +46,7 @@
 
 #### 10.简单算数验证码识别例子
 - [公众号地址：简单算数验证码识别例子](https://mp.weixin.qq.com/s/y97cWKgFIel8v9EXLqoLDg)
-- [文章代码](赣州职业技术学院/README.md)
+- [文章代码](简单算数验证码识别例子/README.md)
 
 #### 11.某解析站token逆向
 - [公众号地址：某解析站token逆向](https://mp.weixin.qq.com/s/EdyaV8NqdwoFdKbN5hq59w)
@@ -60,11 +58,11 @@
 
 #### 13.某公告平台hash逆向及控制台反调试
 - [公众号地址：某公告平台hash逆向及控制台反调试](https://mp.weixin.qq.com/s/vMfyrxn6sP_anIcytx97jA)
-- [文章代码](土地资源局/README.md)
+- [文章代码](某公告平台/README.md)
 
 #### 14.某习通混淆代码及滑动验证码全协议分析
 - [公众号地址：某习通混淆代码及滑动验证码全协议分析](https://mp.weixin.qq.com/s/fidcwcn5NLAQD0qmRf_Xag)
-
+- [文章代码](某习通/README.md)
 #### 15.某巢滑块验证码混淆逆向分析
 - [公众号地址：某巢滑块验证码混淆逆向分析](https://mp.weixin.qq.com/s/4sfDPPdtHkmWxDu0GYqxjA)
 
