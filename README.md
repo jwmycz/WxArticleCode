@@ -68,7 +68,7 @@
 
 #### 16.AST初探：某恩数据ob混淆还原
 - [公众号地址：AST初探：某恩数据ob混淆还原](https://mp.weixin.qq.com/s/QzSN9lO-ZPtYS5sWI9ipkQ)
-
+- [文章代码](某恩数据/README.md)
 #### 17.Python爬虫入门：适合新手的简单js逆向合集
 - [公众号地址：Python爬虫入门：适合新手的简单js逆向合集](https://mp.weixin.qq.com/s/5loshO2LZgMVLM8LVWvwJQ)
 
