@@ -71,7 +71,7 @@
 - [文章代码](某恩数据/README.md)
 #### 17.Python爬虫入门：适合新手的简单js逆向合集
 - [公众号地址：Python爬虫入门：适合新手的简单js逆向合集](https://mp.weixin.qq.com/s/5loshO2LZgMVLM8LVWvwJQ)
-
+- [文章代码](入门级逆向/README.md)
 #### 18.Python爬虫入门：利用AST处理简单逆向代码
 - [公众号地址：Python爬虫入门：利用AST处理简单逆向代码](https://mp.weixin.qq.com/s/nhnjaKLq075UiyGsZvibQg)
 - [文章代码](飘天小说/README.md)
@@ -82,7 +82,7 @@
 #### 20.Python爬虫入门：适合新手的js逆向合集（2)
 
 - [公众号地址：Python爬虫入门：适合新手的js逆向合集（2)](https://mp.weixin.qq.com/s/SS0M3cXeW37b-lyV7I5qng)
-
+- [文章代码](入门级逆向/README.md)
 #### 21.aliplayer加密m3u8解密分析
 - [公众号地址：aliplayer加密m3u8解密分析](https://mp.weixin.qq.com/s/EyPq7EBKQ9d5Ov5NG48_Tg)
 
