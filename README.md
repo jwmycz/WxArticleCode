@@ -99,7 +99,11 @@
 - [公众号地址：某花顺hexin_v纯算](https://mp.weixin.qq.com/s/UrQIK_-QDNsoQkD25rjm7w)
 - [文章代码](某花顺/README.md)
 
+#### 25.Python爬虫进阶系列
 
+- [（1）某米商城token参数解析](https://mp.weixin.qq.com/s/wOqSZ7uVL70STpf90RuIzg)
+
+- [进阶系列文章代码](进阶/README.md)
 
 
 
