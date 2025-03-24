@@ -9576,6 +9576,7 @@ function pwd(pw){
     a = new o;
     s = (new Date).getTime()
     o = a.encode(pw, s)
-    //console.log(o)
+    console.log(o)
     return o
 }
+pwd('123456')

@@ -1,3 +1,5 @@
 腾讯的滑块还没分析。只分析了他自己的加密
 
+aHR0cHM6Ly9tZW1iZXJ3ZWIubGVpdGluZy5jb20vcmVnaXN0ZXI=
+
 
