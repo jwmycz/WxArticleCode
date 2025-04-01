@@ -19,7 +19,7 @@
 #### 5.某招标站参数逆向分析
 
 - [公众号地址：某招标站参数逆向分析](https://mp.weixin.qq.com/s/1aVWtWkZ_Na9jO2t-AZiYA)
-- [文章代码](某招标站/README.md)
+- [文章代码](招投标系列/某招标站/README.md)
 
 #### 6.某巢滑块验证码混淆逆向分析
 - [公众号地址：某巢滑块验证码混淆逆向分析](https://mp.weixin.qq.com/s/4sfDPPdtHkmWxDu0GYqxjA)
@@ -32,7 +32,7 @@
 
 #### 8.某公共交易平台header头逆向
 - [公众号地址：某公共交易平台header头逆向](https://mp.weixin.qq.com/s/MoHyPxvuH9aXOkGlymv66g)
-- [文章代码](某公共交易平台/README.md)
+- [文章代码](招投标系列/某公共交易平台/README.md)
 
 #### 9.某花顺hexin_v纯算
 
@@ -49,6 +49,9 @@
 
 #### 12.某公告平台hash逆向及控制台反调试
 - [公众号地址：某公告平台hash逆向及控制台反调试](https://mp.weixin.qq.com/s/vMfyrxn6sP_anIcytx97jA)
-- [文章代码](某公告平台/README.md)
+- [文章代码](招投标系列/某公告平台/README.md)
 
+#### 13.某招投标服务平台AST详解
 
+- [公众号地址：某招投标服务平台AST详解](https://mp.weixin.qq.com/s/chCeOKP5z7ar9BkTIUG0FA)
+- [文章代码](招投标系列/某招投标公共服务平台/README.md)

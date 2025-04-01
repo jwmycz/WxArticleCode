@@ -27,16 +27,17 @@
 
 - [（1）利用AST处理简单逆向代码](https://mp.weixin.qq.com/s/nhnjaKLq075UiyGsZvibQg)
 - [（2）某米商城token参数解析](https://mp.weixin.qq.com/s/wOqSZ7uVL70STpf90RuIzg)
-- [（3）某公共交易平台header头逆向](https://mp.weixin.qq.com/s/MoHyPxvuH9aXOkGlymv66g)
+- [（3）招投标系列--某公共交易平台header头逆向](https://mp.weixin.qq.com/s/MoHyPxvuH9aXOkGlymv66g)
 - [（4）某花顺hexin_v纯算](https://mp.weixin.qq.com/s/UrQIK_-QDNsoQkD25rjm7w)
 - [（5）某习通混淆代码及滑动验证码全协议分析](https://mp.weixin.qq.com/s/fidcwcn5NLAQD0qmRf_Xag)
-- [（6）某公告平台hash逆向及控制台反调试](https://mp.weixin.qq.com/s/vMfyrxn6sP_anIcytx97jA)
+- [（6）招投标系列--某公告平台hash逆向及控制台反调试](https://mp.weixin.qq.com/s/vMfyrxn6sP_anIcytx97jA)
 - [（7）某解析站token逆向](https://mp.weixin.qq.com/s/EdyaV8NqdwoFdKbN5hq59w)
 - [（8）某鸟加密参数解析](https://mp.weixin.qq.com/s/iATUUJNmDdMtB_g_LwFfzw)
 - [（9）AST初探：某恩数据ob混淆还原](https://mp.weixin.qq.com/s/QzSN9lO-ZPtYS5sWI9ipkQ)
-- [（10）某招标站参数逆向分析](https://mp.weixin.qq.com/s/1aVWtWkZ_Na9jO2t-AZiYA)
+- [（10）招投标系列--某招标站参数逆向分析](https://mp.weixin.qq.com/s/1aVWtWkZ_Na9jO2t-AZiYA)
 - [（11）某巢滑块验证码混淆逆向分析](https://mp.weixin.qq.com/s/4sfDPPdtHkmWxDu0GYqxjA)
 - [（12）aliplayer加密m3u8解密分析](https://mp.weixin.qq.com/s/EyPq7EBKQ9d5Ov5NG48_Tg)
+- [（13）招投标系列--某招投标服务平台AST详解](https://mp.weixin.qq.com/s/chCeOKP5z7ar9BkTIUG0FA)
 
 ###### 进阶系列代码
 
