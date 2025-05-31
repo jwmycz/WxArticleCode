@@ -23,7 +23,14 @@
 
 ### 2.Python爬虫进阶系列
 
-###### 进阶系列文章
+###### 验证码进阶系列文章
+
+- [（1）Python爬虫进阶：普通验证码识别训练入门(一)
+](https://mp.weixin.qq.com/s/frGrDunatTuLfhYaHO4cmQ)
+###### 验证码进阶系列代码
+- [验证码系列文章代码](验证码识别/README.md)
+
+###### 爬虫进阶系列文章
 
 - [（1）利用AST处理简单逆向代码](https://mp.weixin.qq.com/s/nhnjaKLq075UiyGsZvibQg)
 - [（2）某米商城token参数解析](https://mp.weixin.qq.com/s/wOqSZ7uVL70STpf90RuIzg)
@@ -39,9 +46,9 @@
 - [（12）aliplayer加密m3u8解密分析](https://mp.weixin.qq.com/s/EyPq7EBKQ9d5Ov5NG48_Tg)
 - [（13）招投标系列--某招投标服务平台AST详解](https://mp.weixin.qq.com/s/chCeOKP5z7ar9BkTIUG0FA)
 
-###### 进阶系列代码
+###### 爬虫进阶系列代码
 
-- [进阶系列文章代码](进阶/README.md)
+- [爬虫进阶系列文章代码](进阶/README.md)
 
 ### 3.Python爬虫深入系列
 
