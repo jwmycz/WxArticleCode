@@ -1,4 +1,4 @@
-images_set.zip  图片及标注
+images_set.zip  图片
 models.zip  训练好的模型
 
 
