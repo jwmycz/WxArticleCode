@@ -55,3 +55,8 @@
 
 - [公众号地址：某招投标服务平台AST详解](https://mp.weixin.qq.com/s/chCeOKP5z7ar9BkTIUG0FA)
 - [文章代码](招投标系列/某招投标公共服务平台/README.md)
+
+#### 14.某招投标服务平台AST详解
+
+- [公众号地址：某巢滑块验证码混淆逆向分析](https://mp.weixin.qq.com/s/4sfDPPdtHkmWxDu0GYqxjA)
+- [文章代码](某巢滑动查询验证码/README.md)

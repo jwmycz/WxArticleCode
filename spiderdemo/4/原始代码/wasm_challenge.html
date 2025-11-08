@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔢 数字采集挑战 | Number Challenge</title>
+    <link rel="stylesheet" href="/static/css/challenge.css">
+    <link rel="stylesheet" href="/static/css/login-alert.css">
+</head>
+<body>
+    <!-- 返回按钮 -->
+    <a href="/" class="back-btn">返回</a>
+    
+    <div class="container">
+        <!-- 页面标题 -->
+        <div class="page-header">
+            <h1 class="page-title">🔢 数字采集挑战</h1>
+            <p class="page-subtitle">Number Collection Challenge - 测试你的数据采集技能</p>
+        </div>
+        
+        <!-- 登录提示区域 -->
+        <div id="loginAlert" class="login-alert" style="display: none;">
+            <div class="login-alert-content">
+                <span class="login-alert-icon">🔐</span>
+                <span class="login-alert-text">请先登录才能参与挑战！</span>
+                <a href="/admin_I/" class="login-alert-btn">立即登录</a>
+            </div>
+        </div>
+
+        <!-- 挑战内容 -->
+        <div class="challenge-content" style="position: relative;">
+            <div class="loading-overlay" id="loadingOverlay">
+                <div class="loading-spinner"></div>
+            </div>
+
+            <div class="challenge-header">
+                <h2 class="challenge-title">🎯 任务: 采集这100页的全部数字，计算加和并提交结果</h2>
+                <p class="challenge-description">每个页面包含10个随机数字，你需要采集所有100页的数字进行求和运算</p>
+            </div>
+
+            <div class="number-challenge">
+                <!-- 统计信息 -->
+                <div class="stats-info">
+                    <div class="stat-item">
+                        <span class="stat-number" id="currentPageNum">1</span>
+                        <div class="stat-label">当前页</div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalPages">5</span>
+                        <div class="stat-label">总页数</div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="collectedPages">0</span>
+                        <div class="stat-label">已采集页数</div>
+                    </div>
+                </div>
+
+                <!-- 数字网格 -->
+                <div class="numbers-grid" id="numbersGrid">
+                    <!-- 数字将通过JavaScript生成 -->
+                </div>
+            </div>
+        <!-- 直接引入 WASM 模块 -->
+        <script type="module">
+            import init, { encrypt_simple, aes_encrypt, get_timestamp } from '/static/pkg/wasm_anti.js';
+
+            // 初始化 WASM 并绑定到全局
+            init().then(() => {
+            window.encrypt_simple = encrypt_simple;
+            window.aes_encrypt = aes_encrypt;
+            window.get_timestamp = get_timestamp;
+            window.wasmReady = true;
+            console.log('🔐 WASM 加密模块已就绪');
+            }).catch(err => {
+            console.error('❌ WASM 加载失败:', err);
+            window.wasmReady = false;
+            });
+            </script>
+            <!-- 分页导航 -->
+            <div class="pagination-container">
+                <div class="pagination-info" id="paginationInfo">
+                    第 1 页，共 5 页 | 当前页面包含 10 个数字
+                </div>
+                
+                <div class="pagination" id="paginationControls">
+                    <button class="page-btn" onclick="changePage('prev')" id="prevBtn" disabled>← 上一页</button>
+                    <button class="page-btn active" onclick="changePage(1)">1</button>
+                    <button class="page-btn" onclick="changePage(2)">2</button>
+                    <button class="page-btn" onclick="changePage(3)">3</button>
+                    <button class="page-btn" onclick="changePage(4)">4</button>
+                    <button class="page-btn" onclick="changePage(5)">5</button>
+                    <button class="page-btn" onclick="changePage('next')" id="nextBtn">下一页 →</button>
+                </div>
+            </div>
+
+        <!-- 答案提交区域 -->
+        <div class="answer-section">
+            <h3 class="answer-title">💡 提交你的计算结果</h3>
+            <div class="answer-form">
+                <div class="input-group">
+                    <label for="answerInput" class="input-label">请输入所有数字的总和:</label>
+                    <input type="text" id="answerInput" class="answer-input" placeholder="例如: 45623" maxlength="10">
+                </div>
+                <button class="submit-btn" onclick="submitAnswer()">提交答案</button>
+            </div>
+            <div id="resultMessage" class="result-message"></div>
+        </div>
+    </div>
+
+    <!-- 引入外部JavaScript文件 -->
+    <script src="/static/js/anti_automation.js"></script>
+    <script src="/static/js/login-alert.js"></script>
+<script src="/static/js/wasm_challenge.js"></script>
+    <script src="/static/js/jquery.js"></script>
+    
+
+</div>
+    <script>
+
+        /**
+         * 获取指定页面数据（集成 WASM 加密验证）
+         * @param {number} page - 页码
+         * @param {string} type - 挑战类型 (card.json中的id)
+         * @returns {Object} 页面数据
+         */
+        async function apiGetPageData(page, type = challengeType) {
+            let url = `/sec1/api/wasm_challenge/page/${page}/?challenge_type=${encodeURIComponent(type)}`;
+            let headers = { 'Content-Type': 'application/json' };
+            
+            // 如果 WASM 已准备好，添加加密验证
+            if (window.wasmReady && window.encrypt_simple) {
+                try {
+                    const timestamp = Math.floor(window.get_timestamp() / 1000).toString();
+                    const verifyString = `${type}_page_${page}`;
+                    const wasmAuth = window.encrypt_simple(verifyString, timestamp);
+                    
+                    // 添加 WASM 验证参数到 URL
+                    url += `&wasm_auth=${encodeURIComponent(wasmAuth)}`;
+                    headers['X-WASM-Timestamp'] = timestamp;
+                    headers['X-WASM-Page'] = page.toString();
+                    
+                } catch (error) {
+                    console.warn('⚠️ WASM 加密失败，继续无验证请求:', error);
+                }
+            }
+            try {
+                const data = await $.ajax({
+                    url: url,
+                    method: 'GET',
+                    headers: headers,
+                    dataType: 'json'
+                });
+                return data;
+            } catch (xhr) {
+                const data = xhr.responseJSON || {};
+                const errorMessage = data.error || `HTTP ${xhr.status}: ${xhr.statusText}`;
+                throw new Error(errorMessage);
+            }
+        }
+
+    </script>
+</body>
+</html>
+
+
